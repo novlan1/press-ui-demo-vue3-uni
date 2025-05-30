@@ -63,7 +63,7 @@
 <script>
 import { defaultProps, defaultOptions } from '../common/component-handler/press-component';
 import { PARENT_PICKER as PARENT } from '../common/constant/parent-map';
-import { toProvideThis } from '../common/vue3/adapter';
+import { ParentMixin } from '../mixins/relation';
 
 import Loading from '../press-loading-plus/press-loading-plus.vue';
 import PickerColumn from '../press-picker-column/press-picker-column.vue';
@@ -84,7 +84,7 @@ export default {
     Loading,
     ToolBar,
   },
-  ...toProvideThis(PARENT),
+  mixins: [ParentMixin(PARENT)],
 
 
   props: {
@@ -170,13 +170,19 @@ export default {
   },
   mounted() {
     if (Array.isArray(this.children) && this.children.length) {
-      this.setColumns().catch(() => { });
+      this.setColumns(true).catch(() => { });
     }
   },
   methods: {
     noop() { },
-    setColumns() {
+    setColumns(check) {
       const columns = this.simple ? [{ values: this.columns }] : this.columns;
+      if (check) {
+        const empty = !columns.find(item => item.values && item.values.length);
+        if (empty) {
+          return Promise.resolve();
+        }
+      }
       const stack = columns.map((column, index) => this.setColumnValues(index, column.values));
       return Promise.all(stack);
     },
