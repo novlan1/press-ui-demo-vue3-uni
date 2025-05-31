@@ -76,7 +76,7 @@
     "@popperjs/core": "^2.11.8",
     "lodash": "^4.17.21",
     "press-plus": "^1.3.53",
-    "press-ui": "3.0.16",
+    "press-ui": "3.0.17",
     "qrcode.vue": "^3.4.1",
     "swiper-next": "^0.1.1",
     "t-comm": "^1.5.14",
