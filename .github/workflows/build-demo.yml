@@ -35,7 +35,7 @@ jobs:
 
       # 生成静态文件
       - name: Build
-        run: pnpm run build
+        run: git submodule update --init && pnpm run build
 
       # 部署到 GitHub Pages
       - name: Deploy
