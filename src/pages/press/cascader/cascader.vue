@@ -154,8 +154,8 @@ import PressCascader from 'press-ui/press-cascader/press-cascader.vue';
 import PressField from 'press-ui/press-field/press-field.vue';
 import PressPopupPlus from 'press-ui/press-popup-plus/press-popup-plus.vue';
 
-import enUSOptions from 'src/packages/press-cascader/demo-helper/area-en-US.js';
-import zhCNOptions from 'src/packages/press-cascader/demo-helper/area-zh-CN.js';
+import enUSOptions from 'src/press-ui/src/packages/press-cascader/demo-helper/area-en-US.js';
+import zhCNOptions from 'src/press-ui/src/packages/press-cascader/demo-helper/area-zh-CN.js';
 
 
 const options = [

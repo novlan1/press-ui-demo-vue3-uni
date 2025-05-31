@@ -8,7 +8,6 @@ const PAGE_JSON_PRESS_UI = path.resolve(__dirname, '../../src/press-ui/src/pages
 
 const CP_LIST = [
   'pages',
-  'packages',
   'utils',
 ];
 

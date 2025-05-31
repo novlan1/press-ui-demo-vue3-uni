@@ -161,7 +161,7 @@ import PressNotify from 'press-ui/press-notify/press-notify.vue';
 import PressTab from 'press-ui/press-tab/press-tab.vue';
 import PressTabs from 'press-ui/press-tabs/press-tabs.vue';
 
-import { CLIPBOARD_MIXIN } from 'src/packages/press-icon-plus/demo-helper/clipboard-mixin';
+import { CLIPBOARD_MIXIN } from 'src/press-ui/src/packages/press-icon-plus/demo-helper/clipboard-mixin';
 
 
 export default {
