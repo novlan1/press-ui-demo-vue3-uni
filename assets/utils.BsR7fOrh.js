@@ -1,0 +1,1 @@
+import"./index-dUtMVM0l.js";const n=function(){let n;return n="undefined"==typeof window,n}();function t(n){const t=typeof n;return null!==n&&("object"===t||"function"===t)}var e={};const o=()=>{if("undefined"==typeof uni)return!0;let n=!1;try{n=e.VUE_APP_NOT_UNI}catch(t){n=!1}return n};export{n as I,o as a,t as i};

@@ -1,0 +1,1 @@
+import{as as t,at as n}from"./index-dUtMVM0l.js";let e=0;function o(o){const a=`binded_${e}`;function s(){const t=this;t[a]||(o.call(t,n,!0),t[a]=!0)}function c(){const n=this;n[a]&&(o.call(n,t,!1),n[a]=!1)}return e+=1,{mounted:s,activated:s,deactivated:c,beforeDestroy:c}}export{o as B};
