@@ -30,7 +30,7 @@
           }
         },
         {
-          "path": "icon-plus/icon-plus",
+          "path": "icon/icon",
           "style": {
             "navigationBarTitleText": ""
           }
@@ -42,7 +42,7 @@
           }
         },
         {
-          "path": "popup-plus/popup-plus",
+          "path": "popup/popup",
           "style": {
             "navigationBarTitleText": ""
           }
@@ -132,7 +132,7 @@
           }
         },
         {
-          "path": "picker-plus/picker-plus",
+          "path": "picker/picker",
           "style": {
             "navigationBarTitleText": ""
           }
@@ -198,7 +198,7 @@
           }
         },
         {
-          "path": "dialog-plus/dialog-plus",
+          "path": "dialog/dialog",
           "style": {
             "navigationBarTitleText": ""
           }
@@ -216,7 +216,7 @@
           }
         },
         {
-          "path": "loading-plus/loading-plus",
+          "path": "loading/loading",
           "style": {
             "navigationBarTitleText": ""
           }
@@ -234,7 +234,7 @@
           }
         },
         {
-          "path": "popover-plus/popover-plus",
+          "path": "popover/popover",
           "style": {
             "navigationBarTitleText": ""
           }
@@ -462,19 +462,19 @@
           }
         },
         {
-          "path": "dialog/dialog",
+          "path": "dialog-plus/dialog-plus",
           "style": {
             "navigationBarTitleText": ""
           }
         },
         {
-          "path": "icon/icon",
+          "path": "icon-plus/icon-plus",
           "style": {
             "navigationBarTitleText": ""
           }
         },
         {
-          "path": "loading/loading",
+          "path": "loading-plus/loading-plus",
           "style": {
             "navigationBarTitleText": ""
           }
@@ -486,19 +486,19 @@
           }
         },
         {
-          "path": "picker/picker",
+          "path": "picker-plus/picker-plus",
           "style": {
             "navigationBarTitleText": ""
           }
         },
         {
-          "path": "popover/popover",
+          "path": "popover-plus/popover-plus",
           "style": {
             "navigationBarTitleText": ""
           }
         },
         {
-          "path": "popup/popup",
+          "path": "popup-plus/popup-plus",
           "style": {
             "navigationBarTitleText": ""
           }

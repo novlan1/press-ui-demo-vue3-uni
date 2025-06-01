@@ -58,10 +58,10 @@ importers:
         version: 4.17.21
       press-plus:
         specifier: ^1.3.53
-        version: 1.5.20(press-ui@3.0.17)
+        version: 1.5.20(press-ui@3.0.18)
       press-ui:
-        specifier: 3.0.17
-        version: 3.0.17
+        specifier: 3.0.18
+        version: 3.0.18
       qrcode:
         specifier: ^1.5.4
         version: 1.5.4
@@ -7079,8 +7079,8 @@ packages:
   press-ui@1.3.39:
     resolution: {integrity: sha512-w22hKAPlUZcR/Ub7MliNFMIH75iugm2BKPHZCIRhQ/zsyhSt+1wbilpmXC3YztHhVpX1iddYA8Rrto7ZpPrJEw==}
 
-  press-ui@3.0.17:
-    resolution: {integrity: sha512-i4eCxQrd//1sUB8Io1yXQ48n7vXJtH4Dnq4U3PvS7KxtWDdi4xkU+XbH5l7cso1ybZLiOujAs/fhP+SDBvRSGQ==}
+  press-ui@3.0.18:
+    resolution: {integrity: sha512-UbaNBFVamVJAURdBx1mn9AZG8Der40N2JC1TBgsE+RK5cG/JX4GdtlqHkYYvGAIJm3iFBBj4FKV7djPy7sD16A==}
     engines: {node: '>=14'}
 
   prettier-linter-helpers@1.0.0:
@@ -17565,9 +17565,9 @@ snapshots:
 
   preserve@0.2.0: {}
 
-  press-plus@1.5.20(press-ui@3.0.17):
+  press-plus@1.5.20(press-ui@3.0.18):
     dependencies:
-      press-ui: 3.0.17
+      press-ui: 3.0.18
       t-comm: 1.5.28
     transitivePeerDependencies:
       - debug
@@ -17578,7 +17578,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  press-ui@3.0.17: {}
+  press-ui@3.0.18: {}
 
   prettier-linter-helpers@1.0.0:
     dependencies:
@@ -18821,6 +18821,7 @@ snapshots:
       cron-parser: 4.9.0
       qs: 6.13.1
       request: 2.88.2
+      t-comm: 1.5.40
       tar: 6.2.1
     transitivePeerDependencies:
       - debug

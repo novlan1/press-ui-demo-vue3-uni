@@ -1,7 +1,11 @@
 <template>
-  <div class="demo-wrap">
+  <div
+    class="demo-wrap"
+    :style="customStyle"
+  >
     <PressProtocol
       :list="list"
+      :custom-style="customStyle"
       @click="onClickProtocol"
     />
   </div>
@@ -21,10 +25,10 @@ export default {
   data() {
     return {
       list: parseProtocol(DEFAULT_PRESS_UI_INTRODUCE),
+      customStyle: 'background: #fff',
     };
   },
   mounted() {
-    // this.onFetchData();
   },
   methods: {
     onFetchData() {
@@ -48,7 +52,7 @@ export default {
 <style scoped lang="scss">
 .demo-wrap {
   display: flex;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 press-protocol {
