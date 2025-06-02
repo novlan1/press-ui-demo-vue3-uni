@@ -58,10 +58,10 @@ importers:
         version: 4.17.21
       press-plus:
         specifier: ^1.3.53
-        version: 1.5.20(press-ui@3.0.18)
+        version: 1.5.20(press-ui@5.0.5)
       press-ui:
-        specifier: 3.0.18
-        version: 3.0.18
+        specifier: 5.0.5
+        version: 5.0.5
       qrcode:
         specifier: ^1.5.4
         version: 1.5.4
@@ -7079,8 +7079,8 @@ packages:
   press-ui@1.3.39:
     resolution: {integrity: sha512-w22hKAPlUZcR/Ub7MliNFMIH75iugm2BKPHZCIRhQ/zsyhSt+1wbilpmXC3YztHhVpX1iddYA8Rrto7ZpPrJEw==}
 
-  press-ui@3.0.18:
-    resolution: {integrity: sha512-UbaNBFVamVJAURdBx1mn9AZG8Der40N2JC1TBgsE+RK5cG/JX4GdtlqHkYYvGAIJm3iFBBj4FKV7djPy7sD16A==}
+  press-ui@5.0.5:
+    resolution: {integrity: sha512-e0ZLmYS7RRW7xOhwvotDLSmT2BcwzanZ/i5deMi9z4ZJv5XySqe+U2449pqCitpRdsZ1zTA52IpygTqcRNocig==}
     engines: {node: '>=14'}
 
   prettier-linter-helpers@1.0.0:
@@ -8044,6 +8044,10 @@ packages:
 
   t-comm@1.5.40:
     resolution: {integrity: sha512-/yXyGY9Tqy9JzGstoprYAie4ahmd3vIKGeLf8DoPtTqoI/pt5c7jfeGNmWuyxEIris8pkyyghSmzYohAAGvdEQ==}
+    hasBin: true
+
+  t-comm@1.6.2:
+    resolution: {integrity: sha512-OcHsH8IGM+cj1T2CkkS+zyr2ryjxtAeuMEHooKOjMuVb53U2bBf4088nwWZqhSXrqlAMPsyUDTaErpt3yt3l9g==}
     hasBin: true
 
   table@6.8.2:
@@ -17565,20 +17569,20 @@ snapshots:
 
   preserve@0.2.0: {}
 
-  press-plus@1.5.20(press-ui@3.0.18):
+  press-plus@1.5.20(press-ui@5.0.5):
     dependencies:
-      press-ui: 3.0.18
+      press-ui: 5.0.5
       t-comm: 1.5.28
     transitivePeerDependencies:
       - debug
 
   press-ui@1.3.39:
     dependencies:
-      t-comm: 1.5.40
+      t-comm: 1.6.2
     transitivePeerDependencies:
       - debug
 
-  press-ui@3.0.18: {}
+  press-ui@5.0.5: {}
 
   prettier-linter-helpers@1.0.0:
     dependencies:
@@ -18827,6 +18831,20 @@ snapshots:
       - debug
 
   t-comm@1.5.40:
+    dependencies:
+      '@babel/runtime': 7.26.0
+      '@commitlint/config-conventional': 17.8.1
+      axios: 1.7.7
+      cheerio: 1.0.0
+      commander: 10.0.1
+      cron-parser: 4.9.0
+      qs: 6.13.1
+      request: 2.88.2
+      tar: 6.2.1
+    transitivePeerDependencies:
+      - debug
+
+  t-comm@1.6.2:
     dependencies:
       '@babel/runtime': 7.26.0
       '@commitlint/config-conventional': 17.8.1
