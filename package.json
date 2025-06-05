@@ -80,7 +80,7 @@
     "qrcode": "^1.5.4",
     "qrcode.vue": "^3.4.1",
     "swiper-next": "^0.1.1",
-    "t-comm": "^1.5.28",
+    "t-comm": "^1.6.3",
     "tinycolor2": "^1.6.0",
     "uqrcodejs": "^4.0.7",
     "vite-plugin-require-transform": "^1.0.21",
