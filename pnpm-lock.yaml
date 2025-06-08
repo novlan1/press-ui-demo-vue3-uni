@@ -72,8 +72,8 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1
       t-comm:
-        specifier: ^1.6.3
-        version: 1.6.3
+        specifier: ^1.6.8
+        version: 1.6.8
       tinycolor2:
         specifier: ^1.6.0
         version: 1.6.0
@@ -8016,8 +8016,8 @@ packages:
   systemjs@6.15.1:
     resolution: {integrity: sha512-Nk8c4lXvMB98MtbmjX7JwJRgJOL8fluecYCfCeYBznwmpOs8Bf15hLM6z4z71EDAhQVrQrI+wt1aLWSXZq+hXA==}
 
-  t-comm@1.6.3:
-    resolution: {integrity: sha512-gSoQr8AhH4Q3mIKaZn3g4eyb/5cvl5LsJo9OzfUPiRK8r2I3mB3H7OVl42vQaZajdnQdCsbMl2DCkddKhgh7eA==}
+  t-comm@1.6.8:
+    resolution: {integrity: sha512-JL0+7/X/smb1IxzSEAQ9jqZBqbaBBxBDohl8VxYTi5zNGfsxXfRf2dToxPhd/lJdUgW0+IoiTUVRdfyN3naTYQ==}
     hasBin: true
 
   table@6.8.2:
@@ -11308,13 +11308,13 @@ snapshots:
 
   '@plugin-light/shared@0.0.11':
     dependencies:
-      t-comm: 1.6.3
+      t-comm: 1.6.8
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/shared@0.0.22':
     dependencies:
-      t-comm: 1.6.3
+      t-comm: 1.6.8
     transitivePeerDependencies:
       - debug
 
@@ -11328,7 +11328,7 @@ snapshots:
     dependencies:
       '@plugin-light/shared': 0.0.11
       '@plugin-light/webpack-plugin-rem-to-rpx': 0.0.4
-      t-comm: 1.6.3
+      t-comm: 1.6.8
     transitivePeerDependencies:
       - debug
 
@@ -11341,7 +11341,7 @@ snapshots:
   '@plugin-light/webpack-plugin-rem-to-rpx@0.0.4':
     dependencies:
       '@plugin-light/shared': 0.0.11
-      t-comm: 1.6.3
+      t-comm: 1.6.8
     transitivePeerDependencies:
       - debug
 
@@ -12084,7 +12084,7 @@ snapshots:
 
   '@vue/devtools-api@6.6.4': {}
 
-  '@vue/eslint-config-standard@8.0.1(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-typescript@2.7.1)(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)':
+  '@vue/eslint-config-standard@8.0.1(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)':
     dependencies:
       eslint: 8.57.1
       eslint-config-standard: 17.1.0(eslint-plugin-import@2.26.0)(eslint-plugin-n@15.7.0(eslint@8.57.1))(eslint-plugin-promise@6.6.0(eslint@8.57.1))(eslint@8.57.1)
@@ -14003,7 +14003,7 @@ snapshots:
       '@babel/eslint-parser': 7.25.9(@babel/core@7.26.0)(eslint@8.57.1)
       '@babel/preset-react': 7.25.9(@babel/core@7.26.0)
       '@stylistic/eslint-plugin-jsx': 3.1.0(eslint@8.57.1)
-      '@vue/eslint-config-standard': 8.0.1(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-typescript@2.7.1)(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)
+      '@vue/eslint-config-standard': 8.0.1(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)
       '@vue/eslint-config-typescript': 12.0.0(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)(typescript@5.1.6)
       eslint: 8.57.1
       eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.26.0)(eslint@8.57.1)
@@ -14035,7 +14035,7 @@ snapshots:
       '@typescript-eslint/parser': 5.62.0(eslint@8.57.1)(typescript@5.1.6)
       '@vue/eslint-config-typescript': 12.0.0(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)(typescript@5.1.6)
       eslint: 8.57.1
-      eslint-config-rookie: 1.0.4(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1)
+      eslint-config-rookie: 1.0.4(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
       eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1)
       eslint-plugin-import: 2.26.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
       eslint-plugin-jest: 26.9.0(@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.1.6))(eslint@8.57.1)(typescript@5.1.6))(eslint@8.57.1)(jest@29.7.0(@types/node@20.17.6))(typescript@5.1.6)
@@ -14054,7 +14054,7 @@ snapshots:
     dependencies:
       eslint: 8.57.1
 
-  eslint-config-rookie@1.0.4(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1):
+  eslint-config-rookie@1.0.4(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1):
     dependencies:
       '@babel/core': 7.26.0
       '@babel/eslint-parser': 7.25.9(@babel/core@7.26.0)(eslint@8.57.1)
@@ -14103,7 +14103,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -14114,7 +14114,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -14139,7 +14139,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
       has: 1.0.4
       is-core-module: 2.15.1
       is-glob: 4.0.3
@@ -14162,7 +14162,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1)
       has: 1.0.4
       is-core-module: 2.15.1
       is-glob: 4.0.3
@@ -14185,7 +14185,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.1.6))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1)
       has: 1.0.4
       is-core-module: 2.15.1
       is-glob: 4.0.3
@@ -17265,7 +17265,7 @@ snapshots:
       progress-bar-webpack-plugin: 2.1.0(webpack@5.96.1)
       rollup-plugin-visualizer: 5.12.0(rollup@2.79.2)
       script-ext-html-webpack-plugin: 2.1.5(html-webpack-plugin@4.5.2(webpack@5.96.1))(webpack@5.96.1)
-      t-comm: 1.6.3
+      t-comm: 1.6.8
       uni-read-pages: 1.0.5
       unplugin-auto-import: 0.18.5(rollup@2.79.2)
       unplugin-vue-components: 0.27.4(@babel/parser@7.26.2)(rollup@2.79.2)(vue@3.5.13(typescript@5.1.6))
@@ -17521,13 +17521,13 @@ snapshots:
   press-plus@1.5.20(press-ui@5.0.11):
     dependencies:
       press-ui: 5.0.11
-      t-comm: 1.6.3
+      t-comm: 1.6.8
     transitivePeerDependencies:
       - debug
 
   press-ui@1.3.39:
     dependencies:
-      t-comm: 1.6.3
+      t-comm: 1.6.8
     transitivePeerDependencies:
       - debug
 
@@ -18764,7 +18764,7 @@ snapshots:
 
   systemjs@6.15.1: {}
 
-  t-comm@1.6.3:
+  t-comm@1.6.8:
     dependencies:
       '@babel/runtime': 7.26.0
       axios: 1.7.7

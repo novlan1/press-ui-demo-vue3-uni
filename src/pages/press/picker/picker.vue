@@ -272,6 +272,8 @@ export default {
       this.$refs.picker.setColumnValues(1, cities[value[0]]);
       const values = this.$refs.picker.getValues();
       const indexes = this.$refs.picker.getIndexes();
+      console.log('values', values);
+      console.log('indexes', indexes);
       this.onTip({
         value: values.map(item => item.text || item),
         index: indexes,
@@ -290,6 +292,7 @@ export default {
       this.onTip(val, '[confirm] ');
     },
     onTip(val, prefix = '') {
+      console.log('val', val);
       const { value, index } = val;
       const title = `${prefix}value: ${value.text || value}, index: ${index}`;
       this.onGTip(title);
