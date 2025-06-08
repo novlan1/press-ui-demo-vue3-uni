@@ -1,1 +1,0 @@
-import{av as t,aw as n}from"./index-s2zENkw7.js";let e=0;function o(o){const a=`binded_${e}`;function c(){const t=this;t[a]||(o.call(t,n,!0),t[a]=!0)}function i(){const n=this;n[a]&&(o.call(n,t,!1),n[a]=!1)}return e+=1,{mounted:c,activated:c,deactivated:i,beforeDestroy:i}}export{o as B};
