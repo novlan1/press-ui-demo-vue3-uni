@@ -1,1 +1,0 @@
-import{i as t}from"./index-FKy9t0sq.js";function e(e){return new Promise(((s,a)=>{t()?fetch(e).then((t=>200===t.status?t.json():{})).then((t=>{s(t)})).catch((t=>{a(t)})):uni.request({url:e,data:{},method:"GET",sslVerify:!0,success:({data:t})=>{s(t)},fail:t=>{a(t)}})}))}export{e as f};

@@ -1,1 +1,0 @@
-import{f as o}from"./fetch-data.D2zL4oFF.js";const t={displayColumns:function(o,t){return o.slice(0,+t)}};function n(){return o("https://tip-components-1251917893.cos.ap-guangzhou.myqcloud.com/rb/front-open-config__match__default__area_data.json")}export{t as c,n as g};
