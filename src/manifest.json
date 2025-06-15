@@ -65,6 +65,10 @@
         "usingComponents": true,
         "appid": "tt1ec7687a81cc774d01"
     },
+    "mp-xhs": {
+        "usingComponents": true,
+        "appid": "683c604ca79f670001a07e67"
+    },
     "uniStatistics": {
         "enable": false
     },
