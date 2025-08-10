@@ -61,10 +61,10 @@ importers:
         version: 4.17.21
       press-plus:
         specifier: ^1.3.53
-        version: 1.5.20(press-ui@5.0.17)
+        version: 1.5.20(press-ui@5.0.22)
       press-ui:
-        specifier: 5.0.17
-        version: 5.0.17
+        specifier: 5.0.22
+        version: 5.0.22
       qrcode:
         specifier: ^1.5.4
         version: 1.5.4
@@ -7063,8 +7063,8 @@ packages:
   press-ui@1.3.39:
     resolution: {integrity: sha512-w22hKAPlUZcR/Ub7MliNFMIH75iugm2BKPHZCIRhQ/zsyhSt+1wbilpmXC3YztHhVpX1iddYA8Rrto7ZpPrJEw==}
 
-  press-ui@5.0.17:
-    resolution: {integrity: sha512-O/8r7q1pIIhd5VHp8BG5XcIlrE+2fawboIzPUkT7kA7kMQmPa+8k3RxlkQxNEYfd0TSbgTo+yG3GfVu/uIWhSQ==}
+  press-ui@5.0.22:
+    resolution: {integrity: sha512-L1adBaKj3TML2X5RDgYU9mtqvv2lmLetuxs9Tfc6+TTMh3D13++iS4whuqAT5UIIfR5G1D4tlWpcvkxFTN93TA==}
     engines: {node: '>=14'}
 
   prettier-linter-helpers@1.0.0:
@@ -8022,8 +8022,8 @@ packages:
   systemjs@6.15.1:
     resolution: {integrity: sha512-Nk8c4lXvMB98MtbmjX7JwJRgJOL8fluecYCfCeYBznwmpOs8Bf15hLM6z4z71EDAhQVrQrI+wt1aLWSXZq+hXA==}
 
-  t-comm@1.6.10:
-    resolution: {integrity: sha512-Gf0eAEqL3mPxgd6tfSyNdUZf9W0k7yWQ3yzqzg2uQOrirzOb9fCorkBUGSCVu+BrHw8YGc9TGU2pbUQ8YYRXGA==}
+  t-comm@1.6.23:
+    resolution: {integrity: sha512-eXIcnzTgX0Ow4lAbiYdaKeUurBNkgADObqpFyKT3u7QRsZokB6QzdKlzquZBFlRTBFflWkmOfGqN6ccDkxvmGQ==}
     hasBin: true
 
   t-comm@1.6.8:
@@ -17545,20 +17545,20 @@ snapshots:
 
   preserve@0.2.0: {}
 
-  press-plus@1.5.20(press-ui@5.0.17):
+  press-plus@1.5.20(press-ui@5.0.22):
     dependencies:
-      press-ui: 5.0.17
+      press-ui: 5.0.22
       t-comm: 1.6.8
     transitivePeerDependencies:
       - debug
 
   press-ui@1.3.39:
     dependencies:
-      t-comm: 1.6.10
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
-  press-ui@5.0.17: {}
+  press-ui@5.0.22: {}
 
   prettier-linter-helpers@1.0.0:
     dependencies:
@@ -18791,7 +18791,7 @@ snapshots:
 
   systemjs@6.15.1: {}
 
-  t-comm@1.6.10:
+  t-comm@1.6.23:
     dependencies:
       '@babel/runtime': 7.26.0
       axios: 1.7.7
