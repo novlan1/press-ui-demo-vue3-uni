@@ -1,1 +1,0 @@
-import{f as t}from"./fetch-data.DS_v2oQS.js";const n={displayColumns:function(t,n){return t.slice(0,+n)}};function o(){return t("https://tip-components-1251917893.file.myqcloud.com/rb/front-open-config__match__default__area_data.json")}export{n as c,o as g};
