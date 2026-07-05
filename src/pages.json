@@ -3,7 +3,7 @@
     {
       "path": "pages/index/index",
       "style": {
-        "navigationBarTitleText": "Press UI Vue3 Uni"
+        "navigationBarTitleText": "Press UI"
       }
     }
   ],
@@ -536,10 +536,7 @@
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "Press UI",
     "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8",
-    "h5": {
-      "maxWidth": 600
-    }
+    "backgroundColor": "#F8F8F8"
   },
   "condition": {
     "current": 0,
