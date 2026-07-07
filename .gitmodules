@@ -1,3 +1,4 @@
 [submodule "src/press-ui"]
 	path = src/press-ui
-	url = git@github.com:novlan1/press-ui.git
+	url = git@github.com:novlan1/press-ui-private.git
+	branch = develop
